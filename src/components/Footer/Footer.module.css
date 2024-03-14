@@ -1,0 +1,8 @@
+.footer {
+	width: 100%;
+	text-align: center;
+	color: currentColor;
+	background-color: var(--Pale_blue);
+	font-size: 0.7rem;
+	z-index: 2;
+}

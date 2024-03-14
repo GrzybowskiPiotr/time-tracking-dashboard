@@ -1,0 +1,81 @@
+.card {
+	color: #ffff;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 1rem;
+	z-index: 1;
+}
+.card img {
+	position: absolute;
+	right: 0;
+	top: -1rem;
+	z-index: 2;
+	transform: scale(80%);
+}
+.activity_details {
+	position: relative;
+	margin-top: 30px;
+	height: 80%;
+	background-color: var(--Dark_blue);
+	padding: 1rem;
+	border-radius: 1rem;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.activity_details img {
+	position: relative;
+	cursor: pointer;
+}
+.activity_details h2 {
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.activity_details p {
+	font-size: 2rem;
+	font-weight: 300;
+}
+.activity_details .timeFrame {
+	text-align: right;
+}
+.activity_details .timeFrame p {
+	font-size: 1rem;
+	color: var(--Desaturated_blue);
+}
+.top_fill{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50%;
+}
+@media (min-width: 992px){
+	.card{
+		height: 100%;
+		display: flex;
+		align-items: flex-end;
+	}
+	.card h2{
+		margin-bottom: 1rem;
+	}
+	.card p{
+		font-size: 2.75rem;
+	}
+	.activity_details{
+		flex-direction: column;
+		width: 100%;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.activity_details img{
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
+	.activity_details .timeFrame p{
+		font-size: 0.9rem;
+		margin-top: 10px;
+	}
+}
