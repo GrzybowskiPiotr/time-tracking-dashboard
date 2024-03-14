@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -31,11 +31,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop_view](./desktop_view.jpg)
-![Mobile_view](./Mobile_view.jpg)
+![Mobile_view](./mobile_view.jpg)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site Demo](https://time-tracking-dashboard-react-vite.netlify.app/)
 
 ## My process
 
@@ -48,15 +48,10 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-
 ### What I learned
 
 Generate a component based on props. Use of mapping objects.
 
-
 ## Author
 
-
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-
