@@ -54,4 +54,4 @@ Generate a component based on props. Use of mapping objects.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@GrzybowskiPiotr](https://www.frontendmentor.io/profile/GrzybowskiPiotr)
